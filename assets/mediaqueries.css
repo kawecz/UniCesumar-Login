@@ -1,0 +1,78 @@
+@media  screen and (min-width:920px) and (max-width:1040px) {
+   
+    .section-text > h1 {
+        color: var(--cor1);
+        font-size: 30pt;
+        max-width: 250px;
+    }
+    
+    .section-text > p {
+        font-size: 10pt;
+        font-weight: 700;
+        color: var(--cor1);
+        margin-top: 1em;
+        max-width: 450px;
+    }
+}
+
+@media  screen and (max-width:920px) {
+   
+    main {
+        height: 1050px;
+    }
+
+    
+    .login {
+        width: 400px;
+        margin: 2em auto;
+    }
+
+    .login > img {
+        width: 300px;
+        margin: auto;
+    }
+
+    .section-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    .section-text > h1 {
+        text-align: center;
+        max-width: 650px;
+        margin: auto;
+        color: var(--cor1);
+        font-size: 30pt;
+      
+    }
+    
+    .section-text > p {
+        text-align: center;
+        margin: auto;
+        font-size: 10pt;
+        font-weight: 700;
+        color: var(--cor1);
+        margin-top: 1em;
+        max-width: 450px;
+    }
+
+    .login-entrar:hover {
+        transform: translateX(1em);
+    }
+
+    .login-esqueceu {
+        background: var(--cor1);
+        color: white;
+    }
+    
+    .login-esqueceu:hover {
+       background: var(--cor3);
+       color: rgb(24, 24, 24);
+       transform: translateX(1em);
+    }
+    
+}
+
+

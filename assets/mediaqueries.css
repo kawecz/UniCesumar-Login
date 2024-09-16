@@ -23,7 +23,7 @@
 
     
     .login {
-        width: 400px;
+        width: 350px;
         margin: 2em auto;
     }
 
@@ -55,7 +55,7 @@
         font-weight: 700;
         color: var(--cor1);
         margin-top: 1em;
-        max-width: 450px;
+        max-width: 350px;
     }
 
     .login-entrar:hover {
